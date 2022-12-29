@@ -1,6 +1,6 @@
 # Many-Makups-Shop 
-On-line shop
 ![Logo](https://github.com/SoffiaSanchezz/Many-Makups-Shop/blob/46a08972189550d06da053779a42d3a4b2e97f0d/public/Logo.png)
+On-line shop
 
 ## About us?
 We offer beauty products and we have a point of sale where you can find us. We have several categories and you can find a variety of products. We provide home service. 
