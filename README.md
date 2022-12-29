@@ -1,7 +1,8 @@
-# Many-Makups-Shop
+# Many-Makups-Shop ![Version en diferentes pantallas](https://github.com/SoffiaSanchezz/Many-Makups-Shop/blob/ec5e1b44956f238a664213f45d7f51d548a9aa65/src/assets/Logo.png)
 On-line shop
 
-##About us?
+
+## About us?
 We offer beauty products and we have a point of sale where you can find us. We have several categories and you can find a variety of products. We provide home service. 
 
 With this project, I seek to help the Many Makups store so that it can generate a better service by having a page for the public with information about the place, including social networks to contact the store.
