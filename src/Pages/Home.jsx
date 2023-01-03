@@ -35,7 +35,7 @@ const Home = () => {
 
         <div className='center flex-col gap-5 w-full md:flex-row'>
         <div className="bg-clip-text text-transparent h-full flex flex-col justify-center relative center w-full  md:w-2/4"></div>
-        <h2 className='animate-[wiggle_1s_ease-in-out_infinite] text-9xl font-Amatic text-center select-none uppercase text-[#F6B2BF] sm:text-9xl xl:text-[180px] '>
+        <h2 className='animate-[wiggle_1s_ease-in-out_infinite] text-8xl font-Amatic text-center select-none uppercase text-[#F6B2BF] md:text-9xl xl:text-[180px] '>
           Bienvenidos
         </h2>
         <div className='flex  justify-center'>
