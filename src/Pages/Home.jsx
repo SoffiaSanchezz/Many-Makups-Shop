@@ -27,7 +27,7 @@ const Home = () => {
           Many Makeups
         </p>
         <div>
-          <BsCart3 className="flex flex-row items-end text-4xl fixed md:items-end top-0 right-0 top-2" />
+          <BsCart3 className="flex flex-row items-end text-4xl fixed md:items-end right-0 top-2" />
         </div>
         </div>
 
