@@ -39,7 +39,11 @@ const Bottom = () => {
                     </span>
 
                     <span className='bg-[#e0bbeaa1] p-2 px-5 rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start'>
-                    Corporal y Capilar
+                    Kerarina
+                    </span>
+
+                    <span className='bg-[#e0bbeaa1] p-2 px-5 rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start'>
+                    Cursos
                     </span>
 
                     <span className='bg-[#e0bbeaa1] p-2 rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start'>
@@ -47,11 +51,7 @@ const Bottom = () => {
                     </span>
 
                     <span className='bg-[#e0bbeaa1] p-2 px-5 rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start'>
-                    Kerarina
-                    </span>
-
-                    <span className='bg-[#e0bbeaa1] p-2 px-5 rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start'>
-                    Cursos
+                    Corporal y Capilar
                     </span>
 
             </div>

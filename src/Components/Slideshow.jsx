@@ -3,21 +3,23 @@ import React, { useState } from 'react';
 import Kit from '../assets/Producto01.jpeg'
 import KitF from '../assets/Producto02.jpeg'
 
+
 const Slideshow = () => {
 
     const [isOpen, setIsOpen] = useState(false);
+    const [selectedId, setSelectedId] = useState(null)
 
     return (
-        <div className='grid grid-cols-2 md:grid-cols-4'>
+        <div className='grid grid-cols-2 md:grid-cols-4 gap-10 p-5 '>
             <button onClick={() => setIsOpen(true)}>
-                <img src={Kit} alt='' className='scale-50' />
+                <img src={Kit} alt='' className='' />
                 <h2 className='font-Lobster text-3xl'>
                     Kit Brocha Labial
                 </h2>
             </button>
 
             <button onClick={() => setIsOpen(true)}>
-                <img src={KitF} alt='' className='scale-50' />
+                <img src={KitF} alt='' className='' />
                 <h2 className='font-Lobster text-3xl'>
                     Kit Fantacy
                 </h2>
@@ -56,8 +58,10 @@ const Slideshow = () => {
                     </p>
                 </div>
                 </ReactModal>
-        </div>
 
+                
+        </div>
+        
 
     )
 }

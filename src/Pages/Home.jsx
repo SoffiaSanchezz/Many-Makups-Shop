@@ -50,7 +50,7 @@ const Home = () => {
 
       <div className='fixed bottom-0 right-0 text-5xl '>
       <a href='https://api.whatsapp.com/message/YBJNOVTV34NUK1?autoload=1&app_absent=0'>
-      <IoLogoWhatsapp className='text-[#957DAD] '/></a>
+      <IoLogoWhatsapp className='text-[#957DAD]  decoration-4'/></a>
       </div>
       <br />
       <Bottom />
