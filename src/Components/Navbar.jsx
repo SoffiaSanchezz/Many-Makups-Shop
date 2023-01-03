@@ -1,7 +1,14 @@
 import { React, useState } from "react";
-import Logo from '../assets/Logo.png'
 import { CgMenuRound } from "react-icons/cg";
-import { BsCart3 } from "react-icons/bs"
+import { FcShop } from "react-icons/fc";
+import { GiToothbrush } from "react-icons/gi";
+import { GiPalette } from "react-icons/gi";
+import { MdOutlineFaceRetouchingNatural } from "react-icons/md";
+import { GiJeweledChalice } from "react-icons/gi";
+import { GiLipstick } from "react-icons/gi";
+import { GiEyelashes } from "react-icons/gi";
+import { GiFrozenBody } from "react-icons/gi";
+import { VscPerson } from "react-icons/vsc";
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
@@ -9,19 +16,23 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="fixed top-2 left-5 z-30 w-fit h-fit  rounded-full bg-[#FDDDAA] flex flex-row"
+
+            <div className="fixed left-5 z-30 w-fit h-fit  rounded-full bg-[#FDDDAA]"
                 onClick={() => setMenu(!menu)}>
-                <CgMenuRound className=" text-5xl " />
+                <CgMenuRound className=" text-5xl" />
             </div>
-
-            <div className="pr-80 sm:pr-180">
+            <div>
                 {menu && (
-                    <div className="left-8 bottom-10 h-fit pb-20 px-5 py-20 rounded-md flex flex-col gap-4 z-20 font-Handlee text-1xl">
+                    <div className="fixed h-fit pb-20 px-5 py-5 rounded-md flex flex-col items-center gap-4 z-20 font-Handlee text-2xl bg-white">
 
-                        <Link>
-                            <span>Home</span>
-                            <hr />
-                        </Link>
+                        <div className="flex flex-row items-baseline">
+                            <Link >
+                                <FcShop className="text-3xl" />
+                                <span>Home</span>
+                                <hr />
+                            </Link>
+                        </div>
+
 
                         <Link>
                             <span>Brochas</span>
@@ -57,6 +68,7 @@ const Navbar = () => {
 
 
                     </div>
+
                 )
                 }
             </div>
