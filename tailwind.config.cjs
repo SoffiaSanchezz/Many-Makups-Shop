@@ -7,7 +7,7 @@ module.exports = {
       Amatic: ['"Amatic SC","sans-serif"'],
       Lobster: ['"Lobster Two","cursive"'],
       Handlee: ['"Handlee", "cursive"']
-    },
+    },  
     extend: {
       scrollPadding: {
         '96': '24rem',
@@ -20,6 +20,9 @@ module.exports = {
           '0%, 100%': { transform: 'rotate(-3deg)' },
           '50%': { transform: 'rotate(3deg)' },
         }
+      },
+      spacing: {
+        '4.25': '17rem',
       }
     },
   },

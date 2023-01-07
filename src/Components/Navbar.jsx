@@ -12,8 +12,7 @@ import { FaPaintBrush } from "react-icons/fa";
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
-    const [menu, setMenu] = useState(false)
-    const [selectedId, setSelectedId] = useState(null)
+    const [menu, setMenu] = useState(false) 
 
 
     return (
@@ -25,7 +24,7 @@ const Navbar = () => {
             </div>
             <div>
                 {menu && (
-                    <div className="fixed h-fit pb-40 px-8 py-16 rounded-r-full border-4 flex flex-col  gap-4 z-20 font-Handlee text-3xl bg-white">
+                    <div className="fixed h-fit pb-40 px-8 py-16 rounded-br-full border-4 border-[#FDDDAA] flex flex-col  gap-4 z-20 font-Handlee text-3xl bg-white drop-shadow-2xl">
 
                         <div className="flex flex-row items-baseline">
                             <Link >
@@ -36,7 +35,7 @@ const Navbar = () => {
                         </div>
 
 
-                        <div className="p-5">
+                        <div className="p-4">
                         <Link>
                         <FaPaintBrush className="absolute left-0 text-4xl text-rose-700"/>
                             <span>Brochas</span>
@@ -46,27 +45,27 @@ const Navbar = () => {
 
                         <Link>
                         <GiPalette className="absolute left-0 text-4xl text-orange-900"/>
-                            <span className="p-5">Sombras</span>
+                            <span className="p-4">Sombras</span>
                         </Link>
 
                         <Link>
                         <GiToothbrush className="absolute left-0 bottom-3/3 text-4xl text-sky-900"/>
-                            <span className="p-5">Facial</span>
+                            <span className="p-4">Facial</span>
                         </Link>
 
                         <Link>
                         <GiJeweledChalice className="absolute left-0 text-4xl text-amber-900"/>
-                            <span className="p-5">Accesorios</span>
+                            <span className="p-4">Accesorios</span>
                         </Link>
 
                         <Link>
                         <GiLipstick className="absolute left-0 text-4xl text-red-600"/>
-                            <span className="p-5">Labios</span>
+                            <span className="p-4">Labios</span>
                         </Link>
 
                         <Link>
                         <GiEyelashes className="absolute left-0 text-4xl"/>
-                            <span className="p-5">Cejas</span>
+                            <span className="p-4">Cejas</span>
                         </Link>
 
                         <Link>
