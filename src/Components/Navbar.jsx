@@ -9,78 +9,84 @@ import { GiLipstick } from "react-icons/gi";
 import { GiEyelashes } from "react-icons/gi";
 import { GiFrozenBody } from "react-icons/gi";
 import { FaPaintBrush } from "react-icons/fa";
+import Menuu from '../assets/MenuuTwo.png'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
-    const [menu, setMenu] = useState(false)
+    const [menu, setMenu] = useState(false) 
+
 
     return (
         <>
 
-            <div className="fixed left-5 z-30 w-fit h-fit  rounded-full bg-[#FDDDAA]"
+            <div className="fixed left-5 top-4 z-[100] w-fit h-fit  rounded-full bg-[#E0BBEA] hover:bg-pink-200"
                 onClick={() => setMenu(!menu)}>
-                <CgMenuRound className=" text-5xl" />
+                <CgMenuRound className="text-5xl"  />
             </div>
             <div>
                 {menu && (
-                    <div className="fixed h-fit pb-20 px-5 py-5 rounded-md flex flex-col items-center gap-4 z-20 font-Handlee text-3xl bg-white">
+                    <div className="fixed z-[90] h-fit pb-40 px-8 py-16 rounded-br-full border-4 border-[#FDDDAA] flex flex-col  gap-4 font-Handlee text-3xl bg-white drop-shadow-2xl">
 
                         <div className="flex flex-row items-baseline">
                             <Link >
-                                <FcShop className="text-3xl" />
-                                <span>Home</span>
+                                <FcShop className="text-5xl absolute left-3" />
+                                <span className="p-8">Home</span>
                                 <hr />
                             </Link>
                         </div>
 
 
-                        <div className="">
+                        <div className="p-4">
                         <Link>
-                        <FaPaintBrush className="absolute left-12 text-4xl text-rose-700"/>
+                        <FaPaintBrush className="absolute left-0 text-4xl text-rose-700"/>
                             <span>Brochas</span>
                         </Link>
 </div>
 
+
                         <Link>
-                        <GiPalette className="absolute left-12 text-4xl text-orange-900"/>
-                            <span>Sombras</span>
+                        <GiPalette className="absolute left-0 text-4xl text-orange-900"/>
+                            <span className="p-4">Sombras</span>
                         </Link>
 
                         <Link>
-                        <GiToothbrush className="absolute left-12 bottom-3/3 text-5xl text-sky-900"/>
-                            <span>Facial</span>
+                        <GiToothbrush className="absolute left-0 bottom-3/3 text-4xl text-sky-900"/>
+                            <span className="p-4">Facial</span>
                         </Link>
 
                         <Link>
-                        <GiJeweledChalice className="absolute left-10 text-4xl text-amber-900"/>
-                            <span>Accesorios</span>
+                        <GiJeweledChalice className="absolute left-0 text-4xl text-amber-900"/>
+                            <span className="p-4">Accesorios</span>
                         </Link>
 
                         <Link>
-                        <GiLipstick className="absolute left-16 text-4xl text-red-600"/>
-                            <span>Labios</span>
+                        <GiLipstick className="absolute left-0 text-4xl text-red-600"/>
+                            <span className="p-4">Labios</span>
                         </Link>
 
                         <Link>
-                        <GiEyelashes className="absolute left-16 text-4xl"/>
-                            <span>Cejas</span>
+                        <GiEyelashes className="absolute left-0 text-4xl"/>
+                            <span className="p-4">Cejas</span>
                         </Link>
 
                         <Link>
-                        <GiFrozenBody className="absolute left-8 text-4xl"/>
-                            <span>Ojos Y Piel</span>
+                        <GiFrozenBody className="absolute left-0 text-4xl"/>
+                            <span className="p-4">Ojos Y Piel</span>
                         </Link>
 
                         <Link>
                         <MdOutlineFaceRetouchingNatural className="absolute left-0 text-3xl text-fuchsia-300"/>
-                            <span className="p-2">Capilar y Corporal</span>
+                            <span className="p-3">Capilar y Corporal</span>
                         </Link>
+
+                        
 
 
                     </div>
 
                 )
                 }
+                
             </div>
         </>
     )

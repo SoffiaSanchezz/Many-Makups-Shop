@@ -8,7 +8,7 @@ const Category = () => {
                     Elige la Categoria
                 </h3>
             </div>
-            <div className=' flex justify-center'>
+            <div className=' flex justify-center w-5/6 m-auto'>
                 <p className='font-Handlee  flex center rounded-3xl border-2 border-[#FDDDAA] bg-[#FFFFDD] px-8 p-2 text-2xl'>
                     Siempre hay flores en el mundo para quien lleva un jardin en el alma
                 </p>
