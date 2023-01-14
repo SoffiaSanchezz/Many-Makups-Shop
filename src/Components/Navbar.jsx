@@ -28,7 +28,7 @@ const Navbar = () => {
                     <div className="fixed z-[90] h-fit pb-40 px-8 py-16 rounded-br-full border-4 border-[#FDDDAA] flex flex-col  gap-4 font-Handlee text-3xl bg-white drop-shadow-2xl">
 
                         <div className="flex flex-row items-baseline">
-                            <Link >
+                            <Link to="/">
                                 <FcShop className="text-5xl absolute left-3" />
                                 <span className="p-8">Home</span>
                                 <hr />
