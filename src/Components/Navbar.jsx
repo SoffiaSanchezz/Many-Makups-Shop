@@ -9,6 +9,7 @@ import { GiLipstick } from "react-icons/gi";
 import { GiEyelashes } from "react-icons/gi";
 import { GiFrozenBody } from "react-icons/gi";
 import { FaPaintBrush } from "react-icons/fa";
+import Menuu from '../assets/MenuuTwo.png'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
@@ -18,17 +19,17 @@ const Navbar = () => {
     return (
         <>
 
-            <div className="fixed left-5 z-30 w-fit h-fit  rounded-full bg-[#FDDDAA]"
+            <div className="fixed left-5 top-4 z-[100] w-fit h-fit  rounded-full bg-[#E0BBEA] hover:bg-pink-200"
                 onClick={() => setMenu(!menu)}>
-                <CgMenuRound className=" text-5xl" />
+                <CgMenuRound className="text-5xl"  />
             </div>
             <div>
                 {menu && (
-                    <div className="fixed h-fit pb-40 px-8 py-16 rounded-br-full border-4 border-[#FDDDAA] flex flex-col  gap-4 z-20 font-Handlee text-3xl bg-white drop-shadow-2xl">
+                    <div className="fixed z-[90] h-fit pb-40 px-8 py-16 rounded-br-full border-4 border-[#FDDDAA] flex flex-col  gap-4 font-Handlee text-3xl bg-white drop-shadow-2xl">
 
                         <div className="flex flex-row items-baseline">
                             <Link >
-                                <FcShop className="text-5xl absolute left-0" />
+                                <FcShop className="text-5xl absolute left-3" />
                                 <span className="p-8">Home</span>
                                 <hr />
                             </Link>
@@ -85,6 +86,7 @@ const Navbar = () => {
 
                 )
                 }
+                
             </div>
         </>
     )

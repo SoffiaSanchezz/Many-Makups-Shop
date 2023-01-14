@@ -8,7 +8,6 @@ import Logo from '../assets/Logo.png'
 import Shop from '../Components/selector/Shop';
 import Category from '../Components/selector/Category';
 import Modal from '../Components/Modal';
-import Carousels from '../Components/Carousels';
 
 
 
@@ -19,23 +18,22 @@ const Home = () => {
 
       <Navbar />
 
-      <div className="w-full top-0 flex justify-between items-center px-40 text-2xl  gap-4 md:px-6 z-40 bg-white">
+      <div className="w-full top-0 flex justify-between items-center px-40 text-2xl  gap-4 md:px-6 z-40 bg-pink-100 fixed pb-2">
         <div className="flex flex-row">
-          <Link to="/">
-            <img className="w-20 justify-center" src={Logo} alt="" />
-          </Link>
         </div>
         <p className="font-Lobster">
-          Many Makeups
+        <Link to="/">
+            <img className="justify-center w-20" src={Logo} alt="" />
+          </Link>
         </p>
         <div>
-          <BsCart3 className="flex flex-row items-end text-4xl fixed md:items-end right-2 top-2 animate-none" />
+          <BsCart3 className="flex flex-row items-end text-4xl fixed md:items-end right-4 top-5 animate-none" />
         </div>
       </div>
 
       <br />
 
-      <div className='center flex-col gap-5 w-full md:flex-row'>
+      <div className='center flex-col gap-5 w-full md:flex-row mt-20'>
         <div className="bg-clip-text text-transparent h-full flex flex-col justify-center relative center w-full  md:w-2/4"></div>
         <h2 className='animate-[wiggle_1s_ease-in-out_infinite] text-8xl font-Amatic text-center select-none uppercase text-[#F6B2BF] md:text-9xl xl:text-[180px] '>
           Bienvenidos
@@ -61,7 +59,6 @@ const Home = () => {
       <br />
       <Shop />
       <Modal />
-      <Carousels />
 
 
 
