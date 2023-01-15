@@ -17,10 +17,8 @@ const Capilar = () => {
                 <p className='font-Handlee  flex center rounded-3xl border-4 border-[#c7463d] bg-[#D2918C] px-8 p-2 text-2xl'>
                     Se La persona que quisieras ser en tu vida
                 </p>
-                <section>
-                    <Bottom/>
-                </section>
             </div>
+            <Bottom/>
             <Footer/>
         </div>
     )

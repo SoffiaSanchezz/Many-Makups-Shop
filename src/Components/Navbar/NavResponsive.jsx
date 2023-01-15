@@ -10,7 +10,7 @@ export const NavResponsive = () => {
             </div>
             <p className="font-Lobster">
                 <Link to="/">
-                    <img size={50} className="justify-center md:w-16" src={Logo} alt="" />
+                    <img size={80} className="justify-center md:w-16" src={Logo} alt="" />
                 </Link>
             </p>
             <div>
