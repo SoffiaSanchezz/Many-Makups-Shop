@@ -26,7 +26,7 @@ const Navbar = () => {
             <div>
             <br/>
                 {menu && (
-                    <div className="fixed z-[90] h-fit w-full pb-32 pt-16 px-8 top-14 rounded-br-full border-r-4 border-[#E0BBEA] flex flex-col  gap-4 font-Handlee text-3xl bg-pink-100 drop-shadow-2xl">
+                    <div className="fixed z-[90] h-fit w-full pb-32 pt-16 px-8 top-5 rounded-br-full border-r-4 border-[#E0BBEA] flex flex-col  gap-4 font-Handlee text-3xl bg-pink-100 drop-shadow-2xl">
 
                         <div className="flex flex-row">
                             <Link to="/">
