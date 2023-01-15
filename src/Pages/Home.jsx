@@ -1,14 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Navbar from '../Components/Navbar'
 import Bottom from '../Components/selector/Bottom'
-import { BsCart3 } from "react-icons/bs";
 import { IoLogoWhatsapp } from "react-icons/io"
-import Logo from '../assets/Logo.png'
 import Shop from '../Components/selector/Shop';
 import Category from '../Components/selector/Category';
-import Modal from '../Components/Modal';
 import Footer from '../Components/selector/Footer';
+import { NavResponsive } from '../Components/Navbar/NavResponsive';
 
 
 
@@ -16,27 +13,12 @@ import Footer from '../Components/selector/Footer';
 const Home = () => {
   return (
     <>
-
+      <NavResponsive />
       <Navbar />
-
-      <div className="w-full top-0 flex justify-between items-center px-40 text-2xl  gap-4 md:px-6 z-40 bg-pink-100 fixed pb-2">
-        <div className="flex flex-row">
-        </div>
-        <p className="font-Lobster">
-        <Link to="/">
-            <img className="justify-center w-40 md:w-16" src={Logo} alt="" />
-          </Link>
-        </p>
-        <div>
-          <BsCart3 className="flex flex-row items-end text-4xl fixed md:items-end right-4 top-5 animate-none" />
-        </div>
-      </div>
-
-      <br />
 
       <div className='center flex-col gap-5 w-full md:flex-row mt-20'>
         <div className="bg-clip-text text-transparent h-full flex flex-col justify-center relative center w-full  md:w-2/4"></div>
-        <h2 className='animate-[wiggle_1s_ease-in-out_infinite] text-8xl font-Amatic text-center select-none uppercase text-[#F6B2BF] md:text-9xl xl:text-[180px] '>
+        <h2 className=' w-96 m-auto animate-[wiggle_1s_ease-in-out_infinite] text-8xl font-Amatic text-center select-none uppercase text-[#F6B2BF] md:text-9xl xl:text-[180px] '>
           Bienvenidos
         </h2>
         <div className='flex  justify-center'>
@@ -55,15 +37,15 @@ const Home = () => {
       </div>
       <br />
       <section>
-      <Category />
+        <Category />
       </section>
       <br />
       <section>
-      <Bottom />
+        <Bottom />
       </section>
       <br />
       <section>
-      <Shop />
+        <Shop />
       </section>
       <section>
       </section>
@@ -71,7 +53,7 @@ const Home = () => {
 
 
       <section>
-        <Footer/>
+        <Footer />
       </section>
 
 
