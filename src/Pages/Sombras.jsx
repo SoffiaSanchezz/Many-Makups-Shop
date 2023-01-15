@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import { NavResponsive } from '../Components/Navbar/NavResponsive'
+import Bottom from '../Components/selector/Bottom'
 import Footer from '../Components/selector/Footer'
 
 const Sombras = () => {
@@ -16,6 +17,7 @@ const Sombras = () => {
                 Espero que hayan dias en los que te enamores de estar vivo 
                 </p>
             </div>
+            <Bottom/>
             <Footer/>
     </div> 
   )

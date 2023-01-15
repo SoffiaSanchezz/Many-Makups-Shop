@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import { NavResponsive } from '../Components/Navbar/NavResponsive'
+import Bottom from '../Components/selector/Bottom'
 import Footer from '../Components/selector/Footer'
 
 const Ojos = () => {
@@ -16,6 +17,7 @@ const Ojos = () => {
                     Se La persona que quisieras ser en tu vida
                 </p>
             </div>
+            <Bottom/>
             <Footer />
         </div>
     )
