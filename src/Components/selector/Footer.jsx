@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='grid grid-cols-2 bg-purple-400 border-t-2 border-purple-900'>
+        <div className='grid grid-cols-2 gap-3 bg-purple-400 border-t-2 border-purple-900 pl-2 pr-2'>
               <div className=''>
         <h2 className='text-2xl font-Lobster'>
           Recibimos todo tipo de pago
