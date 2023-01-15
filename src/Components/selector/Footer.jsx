@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiFillInstagram } from "react-icons/ai"
+import { AiFillInstagram, AiOutlineTrademark } from "react-icons/ai"
 import { BsFacebook } from "react-icons/bs"
 import { RiWhatsappFill } from "react-icons/ri"
 import { FaTiktok } from "react-icons/fa"
@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='grid grid-cols-2 gap-3 bg-purple-400 border-t-2 border-purple-900 pl-2 pr-2'>
+        <div className='grid grid-cols-2 gap-3 bg-purple-400 border-t-2 border-purple-900 pl-5 pr-2'>
               <div className=''>
         <h2 className='text-2xl font-Lobster'>
           Recibimos todo tipo de pago
@@ -68,6 +68,7 @@ const Footer = () => {
           <p className='text-center'>Contraentrega a:<br/> (Funza ,Facatativa ,Mosquera)</p>
         </div>
         </div>
+        <p className='text-[8px]'>®️ Realizado por: Sofia Sanchez</p>
         </div>
 
     </>

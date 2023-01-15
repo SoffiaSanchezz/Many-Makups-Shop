@@ -1,62 +1,85 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Bottom = () => {
     return (
 
-        <div className='overflow-x-auto p-2'>
+        <div className='overflow-x-auto p-2 cursor-grabbing'>
             <div className='flex flex-nowrap text-3xl items-center gap-2 font-Amatic left-1 px-5'>
 
-
-                    <span className='bg-[#e0bbeaa1] p-2 px-5 rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start'>
+                <Link to="/Brochas" >
+                    <button className='bg-[#e0bbeaa1] p-2 px-5 hover:text-[#4e1713] rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start hover:bg-[#D2918C] hover:border-[#d65b52]'>
                         Brochas
-                    </span>
+                    </button>
+                </Link>
 
 
-                    <span className='bg-[#e0bbeaa1] p-2 px-5 rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start'>
+                <Link to="/Sombras">
+                    <button className='bg-[#e0bbeaa1] p-2 px-5 hover:text-[#4e1713] rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start hover:bg-[#D2918C] hover:border-[#d65b52]'>
                         Sombras
-                    </span>
+                    </button>
+                </Link>
 
-                    <span className='bg-[#e0bbeaa1] p-2 px-5 rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start'>
-                    Facial
-                    </span>
+                <Link to="/Facial">
+                    <button className='bg-[#e0bbeaa1] p-2 px-5 hover:text-[#4e1713] rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start hover:bg-[#D2918C] hover:border-[#d65b52]'>
+                        Facial
+                    </button>
+                </Link>
+
+                <Link to="/Accesorios">
+                    <button className='bg-[#e0bbeaa1] p-2 px-5 hover:text-[#4e1713] rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start hover:bg-[#D2918C] hover:border-[#d65b52]'>
+                        Accesorios
+                    </button>
+                </Link>
 
 
-                
-                    <span className='bg-[#e0bbeaa1] p-2 px-5 rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start'>
-                    Accesorios
-                    </span>
+                <Link to="/Accesorios">
+                    <button className='bg-[#e0bbeaa1] p-2 px-5 hover:text-[#4e1713] rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start hover:bg-[#D2918C] hover:border-[#d65b52]'>
+                        Labios
+                    </button>
+                </Link>
 
-                    <span className='bg-[#e0bbeaa1] p-2 px-5 rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start'>
-                    Labios
-                    </span>
+                <Link to="/Accesorios">
+                    <button className='bg-[#e0bbeaa1] p-2 px-5 hover:text-[#4e1713] rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start hover:bg-[#D2918C] hover:border-[#d65b52]'>
+                        Cejas
+                    </button>
+                </Link>
 
-                    <span className='bg-[#e0bbeaa1] p-2 px-5 rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start'>
-                    Cejas
-                    </span>
+                <Link to="/Accesorios">
+                    <button className='bg-[#e0bbeaa1] p-2 px-5 hover:text-[#4e1713] rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start hover:bg-[#D2918C] hover:border-[#d65b52]'>
+                        Ojos
+                    </button>
+                </Link>
 
-                    <span className='bg-[#e0bbeaa1] p-2 px-5 rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start'>
-                    Ojos
-                    </span>
+                <Link to="/Capilar">
+                    <button className='bg-[#e0bbeaa1] w-60 p-2 px-5 hover:text-[#4e1713] rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start hover:bg-[#D2918C] hover:border-[#d65b52]'>
+                        Capilares y Corporales
+                    </button>
+                </Link>
 
-                    <span className='bg-[#e0bbeaa1] p-2 px-5 rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start'>
-                    Kerarina
-                    </span>
+                <a href='https://wa.me/573114529096?text=Hola!%20Estoy%20interesado%20en%20tu%20servicio%20de%20Keratinas'>
+                    <button className='bg-[#e0bbeaa1] p-2 px-5 hover:text-[#4e1713] rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start hover:bg-[#D2918C] hover:border-[#d65b52]'>
+                        Keratinas
+                    </button>
+                </a>
 
-                    <span className='bg-[#e0bbeaa1] p-2 px-5 rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start'>
-                    Cursos
-                    </span>
 
-                    <span className='bg-[#e0bbeaa1] p-2 rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start'>
-                    Cortes Lunares
-                    </span>
+                <a href='https://wa.me/573114529096?text=Hola!%20Estoy%20interesado%20en%20tu%20servicio%20de%20Cursos'>
+                    <button className='bg-[#e0bbeaa1] w-56 p-2 px-5 hover:text-[#4e1713] rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start hover:bg-[#D2918C] hover:border-[#d65b52]'>
+                        Cursos de Maquillaje
+                    </button>
+                </a>
 
-                    <span className='bg-[#e0bbeaa1] p-2 px-5 rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start'>
-                    Corporal y Capilar
-                    </span>
+
+                <a href='https://wa.me/573114529096?text=Hola!%20Estoy%20interesado%20en%20tu%20servicio%20de%20los%20Cortes%20Lunares'>
+                    <button className='bg-[#e0bbeaa1] w-48 p-2 px-5 hover:text-[#4e1713] rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start hover:bg-[#D2918C] hover:border-[#d65b52]'>
+                        Cortes Lunares
+                    </button>
+                </a>
 
             </div>
 
-            </div>
+        </div>
 
     )
 }
