@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='grid grid-cols-2 bg-purple-400 border-t-2 border-purple-900'>
-              <div className=' px-20 py-4'>
+              <div className=''>
         <h2 className='text-2xl font-Lobster'>
           Recibimos todo tipo de pago
         </h2>

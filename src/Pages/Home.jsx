@@ -24,7 +24,7 @@ const Home = () => {
         </div>
         <p className="font-Lobster">
         <Link to="/">
-            <img className="justify-center w-32 md:w-16" src={Logo} alt="" />
+            <img className="justify-center w-40 md:w-16" src={Logo} alt="" />
           </Link>
         </p>
         <div>
