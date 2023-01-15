@@ -8,6 +8,7 @@ import Logo from '../assets/Logo.png'
 import Shop from '../Components/selector/Shop';
 import Category from '../Components/selector/Category';
 import Modal from '../Components/Modal';
+import Footer from '../Components/selector/Footer';
 
 
 
@@ -23,7 +24,7 @@ const Home = () => {
         </div>
         <p className="font-Lobster">
         <Link to="/">
-            <img className="justify-center w-20" src={Logo} alt="" />
+            <img className="justify-center w-32 md:w-16" src={Logo} alt="" />
           </Link>
         </p>
         <div>
@@ -53,12 +54,25 @@ const Home = () => {
           <IoLogoWhatsapp className='text-[#957DAD]  animate-none' /></a>
       </div>
       <br />
-      <Bottom />
-      <br />
+      <section>
       <Category />
+      </section>
       <br />
+      <section>
+      <Bottom />
+      </section>
+      <br />
+      <section>
       <Shop />
-      <Modal />
+      </section>
+      <section>
+      </section>
+
+
+
+      <section>
+        <Footer/>
+      </section>
 
 
 

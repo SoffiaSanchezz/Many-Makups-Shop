@@ -26,7 +26,7 @@ const Shop = () => {
                         </video>
                     </div>
                     <br/>
-                    <div className='flex flex-row justify-center'>
+                    <div className='flex flex-row justify-center md:flex-row'>
                     <TbMapPin className='text-5xl text-red-700' />
                     <p className='text-2xl'>
                     Calle 11 #8-30  Villa Sajonia <br/>
