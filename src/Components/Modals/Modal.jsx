@@ -6,9 +6,9 @@ import Espejos from '../../assets/Producto73.jpeg'
 import Botilitos from '../../assets/Producto72.jpeg'
 import Espejito from '../../assets/Producto71.jpeg'
 import Plancha from '../../assets/Producto70.jpeg'
-import Botella from '../../assets/producto78.jpeg'
-import Trendy from '../../assets/producto88.jpeg'
-import Cartu from '../../assets/producto02.jpeg'
+import Botella from '../../assets/Producto78.jpeg'
+import Trendy from '../../assets/Producto88.jpeg'
+import Cartu from '../../assets/Producto02.jpeg'
 import Brochh from '../../assets/Producto13.jpeg'
 
 
