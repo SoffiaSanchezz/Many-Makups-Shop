@@ -1,4 +1,5 @@
 import React from 'react'
+import Motions from '../Components/Modals/Motions'
 import Navbar from '../Components/Navbar'
 import { NavResponsive } from '../Components/Navbar/NavResponsive'
 import Bottom from '../Components/selector/Bottom'
@@ -18,6 +19,7 @@ const Brochas = () => {
                 </p>
             </div>
             <Bottom />
+            <Motions/>
             <Footer/>
         </div>
     )

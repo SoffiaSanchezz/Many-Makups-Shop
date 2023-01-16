@@ -1,4 +1,5 @@
 import React from 'react'
+import Piel from '../Components/Modals/Piel'
 import Navbar from '../Components/Navbar'
 import { NavResponsive } from '../Components/Navbar/NavResponsive'
 import Bottom from '../Components/selector/Bottom'
@@ -14,10 +15,11 @@ const Ojos = () => {
             <br />
             <div className=' flex justify-center w-5/6 m-auto'>
                 <p className='font-Handlee  flex center rounded-3xl border-4 border-[#c7463d] bg-[#D2918C] px-8 p-2 text-2xl'>
-                    Se La persona que quisieras ser en tu vida
+                    Solo tu eliges el color que le das a tu vida
                 </p>
             </div>
             <Bottom/>
+            <Piel/>
             <Footer />
         </div>
     )

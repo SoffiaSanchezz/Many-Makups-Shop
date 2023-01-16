@@ -1,4 +1,5 @@
 import React from 'react'
+import MyModal from '../Components/Modals/MyModal'
 import Navbar from '../Components/Navbar'
 import { NavResponsive } from '../Components/Navbar/NavResponsive'
 import Bottom from '../Components/selector/Bottom'
@@ -14,10 +15,11 @@ const Sombras = () => {
         <br/>
         <div className=' flex justify-center w-5/6 m-auto'>
                 <p className='font-Handlee  flex center rounded-3xl border-4 border-[#c049e0] bg-[#E0BBEA] px-8 p-2 text-2xl'>
-                Espero que hayan dias en los que te enamores de estar vivo 
+                Se de las personas que quisieras tener un ti vida 
                 </p>
             </div>
             <Bottom/>
+            <MyModal/>
             <Footer/>
     </div> 
   )
