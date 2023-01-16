@@ -1,6 +1,7 @@
 import React from 'react'
 import Ventanta from '../Components/Modals/Ventanta'
 import Navbar from '../Components/Navbar'
+import { IoLogoWhatsapp } from "react-icons/io"
 import { NavResponsive } from '../Components/Navbar/NavResponsive'
 import Bottom from '../Components/selector/Bottom'
 import Footer from '../Components/selector/Footer'
@@ -18,6 +19,12 @@ const Labios = () => {
                     Espero que hayan dias en los que enamores de estar viv@
                 </p>
             </div>
+
+            <div className='fixed bottom-3 right-3 text-5xl '>
+                <a href='https://api.whatsapp.com/message/YBJNOVTV34NUK1?autoload=1&app_absent=0'>
+                    <IoLogoWhatsapp className='text-[#957DAD]  animate-none' /></a>
+            </div>
+
             <Bottom />
             <Ventanta />
             <Footer />

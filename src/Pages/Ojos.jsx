@@ -1,6 +1,7 @@
 import React from 'react'
 import Piel from '../Components/Modals/Piel'
 import Navbar from '../Components/Navbar'
+import { IoLogoWhatsapp } from "react-icons/io"
 import { NavResponsive } from '../Components/Navbar/NavResponsive'
 import Bottom from '../Components/selector/Bottom'
 import Footer from '../Components/selector/Footer'
@@ -18,8 +19,14 @@ const Ojos = () => {
                     Solo tu eliges el color que le das a tu vida
                 </p>
             </div>
-            <Bottom/>
-            <Piel/>
+
+            <div className='fixed bottom-3 right-3 text-5xl '>
+                <a href='https://api.whatsapp.com/message/YBJNOVTV34NUK1?autoload=1&app_absent=0'>
+                    <IoLogoWhatsapp className='text-[#957DAD]  animate-none' /></a>
+            </div>
+
+            <Bottom />
+            <Piel />
             <Footer />
         </div>
     )

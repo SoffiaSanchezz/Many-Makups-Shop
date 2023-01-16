@@ -1,20 +1,20 @@
 import { React, useState } from "react";
 import { TbShoppingCartPlus } from 'react-icons/tb';
 import { RiCloseFill } from 'react-icons/ri'
-import So from '../../assets/Producto17.jpeg'
-import mini from '../../assets/Producto14.jpeg'
-import Som from '../../assets/Producto76.jpeg'
-import Somb from '../../assets/Producto07.jpeg'
-import Sombr from '../../assets/Producto12.jpeg'
-import fa from '../../assets/Producto08.jpeg'
-import fac from '../../assets/Producto16.jpeg'
-import faci from '../../assets/Producto22.jpeg'
-import facia from '../../assets/Producto23.jpeg'
-import Re from '../../assets/Producto26.jpeg'
-import Recl from '../../assets/Producto81.jpeg'
-import Recla from '../../assets/Producto82.jpeg'
+import So from '../../assets/Producto18.jpeg'
+import mini from '../../assets/Producto35.jpeg'
+import Som from '../../assets/Producto36.jpeg'
+import Somb from '../../assets/Producto37.jpeg'
+import Sombr from '../../assets/Producto38.jpeg'
+import fa from '../../assets/Producto39.jpeg'
+import fac from '../../assets/Producto41.jpeg'
+import faci from '../../assets/Producto43.jpeg'
+import facia from '../../assets/Producto44.jpeg'
+import Re from '../../assets/Producto89.jpeg'
 
-const Pop = () => {
+
+
+const Copor = () => {
 
     const [modal, setModal] = useState(false)
     const [Espeji, setEspejo] = useState(false)
@@ -26,41 +26,37 @@ const Pop = () => {
     const [Sec, setModal3] = useState(false)
     const [Sep, setModal4] = useState(false)
     const [Sept, setMod] = useState(false)
-    const [SeptO, setModl] = useState(false)
-    const [SeptOp, setModls] = useState(false)
 
-
-
-    return (
-        <div className="grid grid-cols-2 justify-around md:grid-cols-4 p-2 gap-5">
+    
+  return (
+    <div className="grid grid-cols-2 justify-around md:grid-cols-4 p-2 gap-5">
 
             {/* img One modal */}
             <div className="" onClick={() => setModal(!modal)}>
                 <div className="bg-purple-100 p-5 rounded-2xl">
                     <img size={40} src={So} alt="Cosmetiquera" className=" rounded-3xl hover:scale-105" />
                     <h2 className="text-center text-3xl">
-                        Purpure Bloqueador
+                        Depilador istantanio
                     </h2>
                     <div className='flex flex-row justify-between'>
                         <p className="text-pink-500 font-Lobster text-2xl">
-                            $37.000</p>
+                            $30.000</p>
                         <TbShoppingCartPlus className="text-3xl" />
                     </div>
                 </div>
             </div>
             {modal && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#4be2b0] flex-col  gap-4 font-Handlee text-3xl bg-[#8cd2cf] drop-shadow-2xl text-center">
                     <button
                         onClick={() => setModal(!modal)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
                     </button>
                     <h4 className="text-center font-Amatic text-5xl">
-                        Serum de Cejas Trendy
+                        DepilYA Depilador instantaneo
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                    ¡Logra cejas muy pobladas con nuestro Serum Crecimiento de Cejas! Este serum promueve el crecimiento y fortalecimiento de las cejas. Contiene extractos vegetales que ayudan a fortalecer el folículo piloso. El vello crece más resistente, elástico y brillante. Ayuda a fijar y mantener los vellos de las cejas peinados durante el día. No contiene Parabenos ni colorantes.
-
+                    Elimina el vello corporal en solo 1 minuto y lo mejor de todo ¡Sin dolor! Con depilYA no solo eliminas el vello de tu cuerpo, sino que reduce la cantidad que sale y su grosor. Tu piel merece lo mejor, por eso este producto será tu mejor amigo para evitar ardor, cortaduras y más molestias producidas por otros tipos de depilación.
                     </p>
 
                 </div>
@@ -71,27 +67,26 @@ const Pop = () => {
                 <div className="bg-purple-100 p-5 rounded-2xl">
                     <img size={40} src={mini} alt="Cosmetiquera" className=" rounded-3xl hover:scale-105" />
                     <h2 className="text-center text-3xl">
-                        Fijador Makeup Trendy
+                        Shampoo Four Sensation
                     </h2>
                     <div className='flex flex-row justify-between'>
-                        <p className="text-pink-500 font-Lobster text-2xl">$25.000</p>
+                        <p className="text-pink-500 font-Lobster text-2xl">$50.000</p>
                         <TbShoppingCartPlus className="text-3xl" />
                     </div>
                 </div>
             </div>
             {Espeji && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#4be2b0] flex-col  gap-4 font-Handlee text-3xl bg-[#8cd2cf] drop-shadow-2xl text-center">
                     <button
                         onClick={() => setEspejo(!Espeji)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
                     </button>
                     <h4 className="text-center font-Amatic text-5xl">
-                        Sombras Star Luz
+                    Shampoo Four Sensation
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                        Con este fijador tu maquillaje se hará a prueba de agua, hará que el maquillaje quede estático y que este donde tiene que estar, no irrita la piel ni obstruye poros, ideal para todo tipo de piel, su formulación no derrite el maquillaje.
-
+                    !Potencializada con Biotina, Ginseng, Pantenol, Aloe vera, proteína de Seda y microesferas que irán destilando todas sus propiedades en el acondicionador.Ayudan a devolver la vitalidad perdida, regeneran, reparan y suavizan gracias a su formula tan nutritiva. Dejan el cabello con libertad de movimiento, fácil de peinar y manejable. Controla la caída del cabello y favorece el crecimiento del mismo. Apto para cualquier tono, con decoloraciones, tintes o procesos quimicos permanentes.
                     </p>
 
                 </div>
@@ -102,7 +97,7 @@ const Pop = () => {
                 <div className="bg-purple-100 p-5 rounded-2xl">
                     <img size={40} src={Som} alt="Cosmetiquera" className=" rounded-3xl hover:scale-105" />
                     <h2 className="text-center text-3xl">
-                        Crema Anti Acne
+                        Shampoo
                     </h2>
                     <div className='flex flex-row justify-between'>
                         <p className="text-pink-500 font-Lobster text-2xl">$20.000</p>
@@ -111,13 +106,13 @@ const Pop = () => {
                 </div>
             </div>
             {CosMe && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#4be2b0] flex-col  gap-4 font-Handlee text-3xl bg-[#8cd2cf] drop-shadow-2xl text-center">
                     <button
                         onClick={() => setOpen(!CosMe)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
                     </button>
                     <h4 className="text-center font-Amatic text-5xl">
-                        Crema Anti Acne
+                        Shampoo
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
@@ -133,7 +128,7 @@ const Pop = () => {
                 <div className="bg-purple-100 p-5 rounded-2xl">
                     <img size={40} src={Somb} alt="Cosmetiquera" className=" rounded-3xl hover:scale-105" />
                     <h2 className="text-center text-3xl">
-                        Mascarilla Aloe Vera
+                        Crema Corporal
                     </h2>
                     <div className='flex flex-row justify-between'>
                         <p className="text-pink-500 font-Lobster text-2xl">$20.000</p>
@@ -142,19 +137,17 @@ const Pop = () => {
                 </div>
             </div>
             {Boti && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#4be2b0] flex-col  gap-4 font-Handlee text-3xl bg-[#8cd2cf] drop-shadow-2xl text-center">
                     <button
                         onClick={() => SetSection(!Boti)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
                     </button>
                     <h4 className="text-center font-Amatic text-5xl">
-                        Mascarilla Aloe Vera
+                        Crema Corporal hidratante
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
                         Anti inflamatoria, astringente, desinflama,ayuda con la dermatitis, favorece las pieles con rosácea, regenera todas las células de la piel, úsala también en el cuerpo te beneficiara mucho
-
-
                     </p>
 
                 </div>
@@ -165,26 +158,26 @@ const Pop = () => {
                 <div className="bg-purple-100 p-5 rounded-2xl">
                     <img size={40} src={Sombr} alt="Cosmetiquera" className=" rounded-3xl hover:scale-105" />
                     <h2 className="text-center text-3xl">
-                        Parches Anti Acne
+                        Kit Detox Capilar
                     </h2>
                     <div className='flex flex-row justify-between'>
-                        <p className="text-pink-500 font-Lobster text-2xl">$25.000</p>
+                        <p className="text-pink-500 font-Lobster text-2xl">$61.000</p>
                         <TbShoppingCartPlus className="text-3xl" />
                     </div>
                 </div>
             </div>
             {Brosh && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#4be2b0] flex-col  gap-4 font-Handlee text-3xl bg-[#8cd2cf] drop-shadow-2xl text-center">
                     <button
                         onClick={() => SetBoch(!Brosh)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
                     </button>
                     <h4 className="text-center font-Amatic text-5xl">
-                        Parches Anti Acne
+                    Kit Detox Capilar
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                    Mejora la piel seca y deshidratada devolviendo vida, contiene natto en vitamina B6 y E estimulando la renovación celular y retarda el envejecimiento $4.000 Parchecitos anti acné especialmente diseñados para secar y absorber toda la materia del granito, calma la inflamación y se camuflan muy bien en la piel, déjalos entre 4 y 12 horas y veras la diferencia, viene 60 stickres.
+                    Nuestro cabello también necesita una desintoxicación, un aire, una oxigenación. Y para ello, te recomendamos este kit <br/>*SHAMPOO* <br/>•Libre de Sulfato y Sal <br/>•Es una fórmula enriquecida con Emolientes humectantes y una mezcla de extractos los cuales ayudan restableciendo la fuerza y la nutrición del cabello.
                     </p>
 
                 </div>
@@ -195,26 +188,27 @@ const Pop = () => {
                 <div className="bg-purple-100 p-5 rounded-2xl">
                     <img size={40} src={fa} alt="Cosmetiquera" className=" rounded-3xl hover:scale-105" />
                     <h2 className="text-center text-3xl">
-                        Aceite Desmaquillador
+                    Four Sensations Suero
                     </h2>
                     <div className='flex flex-row justify-between'>
-                        <p className="text-pink-500 font-Lobster text-2xl">$27.000</p>
+                        <p className="text-pink-500 font-Lobster text-2xl">$26.000</p>
                         <TbShoppingCartPlus className="text-3xl" />
                     </div>
                 </div>
             </div>
             {Secti && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#4be2b0] flex-col  gap-4 font-Handlee text-3xl bg-[#8cd2cf] drop-shadow-2xl text-center">
                     <button
                         onClick={() => setModal1(!Secti)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
                     </button>
                     <h4 className="text-center font-Amatic text-5xl">
-                        Aceite Desmaquillante
+                    Four Sensations Suero Capilar 
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                    DESMAQUILLA TODOS LOS PRODUCTOS A PRUEBA DE AGUA Ó DE DIFICIL RETIRADO. Su fórmula es NO comedogénica, lo que quiere decir que NO obstruye los poros, NO ocasiona acné, NO ocasiona alergia en los poros o en los folículos de las cejas y las pestañas como si puede suceder con aceites de extractos puros.
+                    Contiene Aceite de mano de res, queratina hidrolizada, miel, argán, entre otros.Restaura, protege e hidrata profundamente, da volúmen, brillo y mucha fuerza a las puntas del cabello; las cuales han sido maltratadas debido a los efectos nocivos del medio ambiente, al uso de químicos y de aparatos eléctricos para el cabello.
+
                     </p>
 
                 </div>
@@ -225,7 +219,7 @@ const Pop = () => {
                 <div className="bg-purple-100 p-5 rounded-2xl">
                     <img size={40} src={fac} alt="Cosmetiquera" className=" rounded-3xl hover:scale-105" />
                     <h2 className="text-center text-3xl">
-                        Protector solar BioAqua
+                    Champú 2en1 perd plus 
                     </h2>
                     <div className='flex flex-row justify-between'>
                         <p className="text-pink-500 font-Lobster text-2xl">$27.000</p>
@@ -234,17 +228,17 @@ const Pop = () => {
                 </div>
             </div>
             {Sect && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#4be2b0] flex-col  gap-4 font-Handlee text-3xl bg-[#8cd2cf] drop-shadow-2xl text-center">
                     <button
                         onClick={() => setModal2(!Sect)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
                     </button>
                     <h4 className="text-center font-Amatic text-5xl">
-                        Protector solar
+                    Champú 2En1 Pert Plus Champú Y Acondicionador
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                    Crema de protección solar Facial, aislamiento UV, bloqueador solar corporal, corrector resistente al agua, protector solar, cosméticos
+                    PERT Plus 2 en 1 champú y acondicionador clásico limpia. Fórmula del medio acondicionado. Champú y acondicionador de medio en una fórmula que añade facilidad de uso, enjuague con agua limpia y no acumular. Hacer cabello normal cabello brillante y saludable.
                     </p>
 
                 </div>
@@ -255,26 +249,26 @@ const Pop = () => {
                 <div className="bg-purple-100 p-5 rounded-2xl">
                     <img size={40} src={faci} alt="Cosmetiquera" className=" rounded-3xl hover:scale-105" />
                     <h2 className="text-center text-3xl">
-                        Crema Facial hidratante
+                    Fantasía Natural
                     </h2>
                     <div className='flex flex-row justify-between'>
-                        <p className="text-pink-500 font-Lobster text-2xl">$27.000</p>
+                        <p className="text-pink-500 font-Lobster text-2xl">$32.000</p>
                         <TbShoppingCartPlus className="text-3xl" />
                     </div>
                 </div>
             </div>
             {Sec && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#4be2b0] flex-col  gap-4 font-Handlee text-3xl bg-[#8cd2cf] drop-shadow-2xl text-center">
                     <button
                         onClick={() => setModal3(!Sec)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
                     </button>
                     <h4 className="text-center font-Amatic text-5xl">
-                        Crema Facial hidratante
+                    Fantasía Natural
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                    Ideal para piel grasa, tiene aloe vera que hidrata y calma el rostro, y hamamelis que cicatriza imperfecciones y controla exceso de brillo.
+                    CON PROTECCIÓN UV (crea en el cabello una barrera que protege de los rayos solares directos). Literal, vivirás una experiencia de maravillosos e inigualables resultados. ¡Muchos extractos se fusionan para formar tres productos en uno solo! Crema para peinar, tratamiento y termoprotector
                     </p>
 
                 </div>
@@ -285,26 +279,26 @@ const Pop = () => {
                 <div className="bg-purple-100 p-5 rounded-2xl">
                     <img size={40} src={facia} alt="Cosmetiquera" className=" rounded-3xl hover:scale-105" />
                     <h2 className="text-center text-3xl">
-                        Crema de Arroz
+                        Keratina Epa Colombia
                     </h2>
                     <div className='flex flex-row justify-between'>
-                        <p className="text-pink-500 font-Lobster text-2xl">$27.000</p>
+                        <p className="text-pink-500 font-Lobster text-2xl">$160.000</p>
                         <TbShoppingCartPlus className="text-3xl" />
                     </div>
                 </div>
             </div>
             {Sep && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#4be2b0] flex-col  gap-4 font-Handlee text-3xl bg-[#8cd2cf] drop-shadow-2xl text-center">
                     <button
                         onClick={() => setModal4(!Sep)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
                     </button>
                     <h4 className="text-center font-Amatic text-5xl">
-                    Crema Facial de Arroz Bioaqua
+                        Keratina Epa Colombia
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                    El arroz puede equilibrar la producción de aceites naturales, haciendo que la piel se hidrate por sí sola y se mantenga suave por más tiempo, combinado también con la exfoliación hace que se unifique el tono de la piel aclarando manchas e imperfecciones. Esta crema facial deja la piel con un aspecto suave e hidratado.
+                    COMBO SUPER COMPLETO DE KERATINA MAS POST CUIDADO FÓRMULA NUEVA AMIGA , TU CABELLO QUEDARA SUPER LISO Y ADEMAS TE VA A CRECER MUCHISIMO.
                     </p>
 
                 </div>
@@ -315,7 +309,7 @@ const Pop = () => {
                 <div className="bg-purple-100 p-5 rounded-2xl">
                     <img size={40} src={Re} alt="Cosmetiquera" className=" rounded-3xl hover:scale-105" />
                     <h2 className="text-center text-3xl">
-                        Protector Solar Sun
+                        Dulce Renacer
                     </h2>
                     <div className='flex flex-row justify-between'>
                         <p className="text-pink-500 font-Lobster text-2xl">$37.000</p>
@@ -324,84 +318,24 @@ const Pop = () => {
                 </div>
             </div>
             {Sept && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#4be2b0] flex-col  gap-4 font-Handlee text-3xl bg-[#8cd2cf] drop-shadow-2xl text-center">
                     <button
                         onClick={() => setMod(!Sept)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
                     </button>
                     <h4 className="text-center font-Amatic text-5xl">
-                    Protector Solar Facial Sun Screen – Purpure Facial
+                    DULCE RENACER TRATAMIENTO CAPILAR NUTRITIVO
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                    SUNSCREEN PROTECTOR SOLAR PURPURE SPF 50+ ideal para hidratar la piel y protegerla por los daños causados por los rayos solares, so fórmula con vitamina E previene el envejecimiento prematuro de la piel, la combinación de los filtros solares actúan como una barrera protectora ante los rayos UV que producen las quemaduras solares. CLÍNICAMENTE COMPROBADO.
-                    </p>
-
-                </div>
-            )}
-
-                        {/* img Four  */}
-                        <div className="" onClick={() => setModl(!SeptO)}>
-                <div className="bg-purple-100 p-5 rounded-2xl">
-                    <img size={40} src={Recl} alt="Cosmetiquera" className=" rounded-3xl hover:scale-105" />
-                    <h2 className="text-center text-3xl">
-                    Jabón Facial Detox
-                    </h2>
-                    <div className='flex flex-row justify-between'>
-                        <p className="text-pink-500 font-Lobster text-2xl">$30.000</p>
-                        <TbShoppingCartPlus className="text-3xl" />
-                    </div>
-                </div>
-            </div>
-            {SeptO && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center text-white">
-                    <button
-                        onClick={() => setModl(!SeptO)} className='absolute top-4 right-5'>
-                        <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
-                    </button>
-                    <h4 className="text-center font-Amatic text-5xl">
-                    Jabón Facial Detox
-                    </h4>
-                    <br />
-                    <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                    ¡Nuestro Jabón Facial Détox es perfecto si tu tipo de piel es grasa!Combate la producción de grasa en el rostro, disminuye visualmente los poros y previene la aparición de imperfecciones. Su ingrediente principal es el carbón activado. Limpia a profundidad sin resecar. Perfecto para pieles normales, mixtas y grasas. Puedes usarlo día y noche.
-                    </p>
-
-                </div>
-            )}
-
-              {/* img Four  */}
-                        <div className="" onClick={() => setModl(!SeptO)}>
-                <div className="bg-purple-100 p-5 rounded-2xl">
-                    <img size={40} src={Recla} alt="Cosmetiquera" className=" rounded-3xl hover:scale-105" />
-                    <h2 className="text-center text-3xl">
-                    Tónico De Rosas
-                    </h2>
-                    <div className='flex flex-row justify-between'>
-                        <p className="text-pink-500 font-Lobster text-2xl">$12.000</p>
-                        <TbShoppingCartPlus className="text-3xl" />
-                    </div>
-                </div>
-            </div>
-            {SeptO && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
-                    <button
-                        onClick={() => setModl(!SeptO)} className='absolute top-4 right-5'>
-                        <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
-                    </button>
-                    <h4 className="text-center font-Amatic text-5xl">
-                    Tónico De Rosas Trendy
-                    </h4>
-                    <br />
-                    <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                    Extracto de rosas y manzanilla en alta concentración, por eso nuestra fórmula se ha posicionado como una de las mejores del mercado, ya que estos dos ingredientes juntos hidratan a profundidad la piel, y controlan brillo durante el día, mejorando en mediano plazo el aspecto de la piel, unificando el tono, calmando alergias o imperfecciones, emparejando el tono de la piel, y ayuda a prevenir y tratar el acné. Olor MUY agradable.
+                    Contiene Aguacate, Papaya, Frutos Rojos, Proteina de Seda, Proteina de Trigo, Coco, Miel, Tomate, Mango, Manzana, Ciruelas, Almendras, Uchuvas, Maracuyá, Cacao, Aceites, proteínas, aminoácidos, Ceramidas, Vitaminas, y Agentes acondicionadores los cuales trabajan en conjunto para realizar una nutrición profunda y un fortalecimiento del cabello, proporcionando a la fibra capilar una apariencia suave y muy sedosa, mucho brillo, hidratación, nutrición, suavidad, vitalidad. Detiene la caída, quita la resequedad y la caspa. Acelera el crecimiento del cabello, estimulando el folículo piloso. Evita y controla el Frizz.
                     </p>
 
                 </div>
             )}
 
         </div>
-    )
+  )
 }
 
-export default Pop
+export default Copor
