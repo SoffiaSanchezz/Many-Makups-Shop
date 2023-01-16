@@ -5,6 +5,7 @@ import kit from '../../assets/Producto03.jpeg'
 import BrochGru from '../../assets/Producto61.jpeg'
 import Brochss from '../../assets/Producto90.jpeg'
 import MiniBros from '../../assets/Producto83.jpeg'
+import lab from '../../assets/Producto.1.png'
 
 
 
@@ -133,6 +134,35 @@ const Motions = () => {
                             <p className="text-center">
                             ¡Este es Kit de Brochas Mini más completo de todos! Trae 10 mini brochas. Son 10 mini brochitas para rostro y ojos. Puedes aplicar productos en crema y en polvo con este kit. Son de muy alta calidad y ultra suaves. Fabricadas en pelo sintético y con mango en madera. Perfectas para llevar de viaje y en el bolso diario Incluye una cosmetiquera.
 
+                            </p>
+
+                        </div>
+                    )}
+
+                    <div className="" onClick={() => SetBoch(!Brosh)}>
+                    <div className="bg-purple-100 p-5 rounded-2xl">
+                        <img size={40} src={lab} alt="Cosmetiquera" className=" rounded-3xl hover:scale-105" />
+                        <h2 className="text-center text-3xl">
+                            Kit Brochas Labial
+                        </h2>
+                        <div className='flex flex-row justify-between'>
+                            <p className="text-pink-500 font-Lobster text-2xl">$50.000</p>
+                            <TbShoppingCartPlus  className="text-3xl"/>
+                        </div>
+                    </div>
+                </div>
+                    {Brosh && (
+                        <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#f65c24] flex-col  gap-4 font-Handlee text-3xl bg-[#FFDFD3] drop-shadow-2xl text-center">
+                            <button
+                                onClick={() => SetBoch(!Brosh)} className='absolute top-4 right-5'>
+                                <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
+                            </button>
+                            <h4 className="text-center font-Amatic text-5xl">
+                                Kit Brochas Labial
+                            </h4>
+                            <br />
+                            <p className="text-center">
+                            Contiene 4 brochas, tres para ojos, difuminadora, aplicadora, detalles y una para piel la puedes usar como iluminador o polvos
                             </p>
 
                         </div>

@@ -33,21 +33,21 @@ const Bottom = () => {
                 </Link>
 
 
-                <Link to="/Accesorios">
+                <Link to="/Labios">
                     <button className='bg-[#e0bbeaa1] p-2 px-5 hover:text-[#4e1713] rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start hover:bg-[#D2918C] hover:border-[#d65b52]'>
                         Labios
                     </button>
                 </Link>
 
-                <Link to="/Accesorios">
+                <Link to="/Cejas">
                     <button className='bg-[#e0bbeaa1] p-2 px-5 hover:text-[#4e1713] rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start hover:bg-[#D2918C] hover:border-[#d65b52]'>
                         Cejas
                     </button>
                 </Link>
 
-                <Link to="/Accesorios">
-                    <button className='bg-[#e0bbeaa1] p-2 px-5 hover:text-[#4e1713] rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start hover:bg-[#D2918C] hover:border-[#d65b52]'>
-                        Ojos
+                <Link to="/Ojos">
+                    <button className='bg-[#e0bbeaa1] p-2 px-5  w-48 hover:text-[#4e1713] rounded-3xl border-2 border-[#957DAD] text-[#957DAD] nap-start hover:bg-[#D2918C] hover:border-[#d65b52]'>
+                        Ojos y piel
                     </button>
                 </Link>
 

@@ -1,19 +1,20 @@
 import { React, useState } from "react";
 import { TbShoppingCartPlus } from 'react-icons/tb';
 import { RiCloseFill } from 'react-icons/ri'
-import So from '../../assets/Producto17.jpeg'
-import mini from '../../assets/Producto14.jpeg'
-import Som from '../../assets/Producto76.jpeg'
-import Somb from '../../assets/Producto07.jpeg'
-import Sombr from '../../assets/Producto12.jpeg'
-import fa from '../../assets/Producto08.jpeg'
-import fac from '../../assets/Producto16.jpeg'
-import faci from '../../assets/Producto22.jpeg'
-import facia from '../../assets/Producto23.jpeg'
-import Re from '../../assets/Producto26.jpeg'
-import Recl from '../../assets/Producto81.jpeg'
+import So from '../../assets/Producto9.jpeg'
+import mini from '../../assets/Producto06.jpeg'
+import Som from '../../assets/Producto10.jpeg'
+import Somb from '../../assets/Producto11.jpeg'
+import Sombr from '../../assets/Producto27.jpeg'
+import fa from '../../assets/Producto29.jpeg'
+import fac from '../../assets/Producto30.jpeg'
+import faci from '../../assets/Producto31.jpeg'
+import facia from '../../assets/Producto20.jpeg'
+import Re from '../../assets/Producto21.jpeg'
+import Recl from '../../assets/Producto32.jpeg'
 
-const Pop = () => {
+
+const Piel = () => {
 
     const [modal, setModal] = useState(false)
     const [Espeji, setEspejo] = useState(false)
@@ -26,7 +27,6 @@ const Pop = () => {
     const [Sep, setModal4] = useState(false)
     const [Sept, setMod] = useState(false)
     const [SeptO, setModl] = useState(false)
-
 
 
     return (
@@ -57,7 +57,7 @@ const Pop = () => {
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                    ¡Logra cejas muy pobladas con nuestro Serum Crecimiento de Cejas! Este serum promueve el crecimiento y fortalecimiento de las cejas. Contiene extractos vegetales que ayudan a fortalecer el folículo piloso. El vello crece más resistente, elástico y brillante. Ayuda a fijar y mantener los vellos de las cejas peinados durante el día. No contiene Parabenos ni colorantes.
+                        ¡Logra cejas muy pobladas con nuestro Serum Crecimiento de Cejas! Este serum promueve el crecimiento y fortalecimiento de las cejas. Contiene extractos vegetales que ayudan a fortalecer el folículo piloso. El vello crece más resistente, elástico y brillante. Ayuda a fijar y mantener los vellos de las cejas peinados durante el día. No contiene Parabenos ni colorantes.
 
                     </p>
 
@@ -182,7 +182,7 @@ const Pop = () => {
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                    Mejora la piel seca y deshidratada devolviendo vida, contiene natto en vitamina B6 y E estimulando la renovación celular y retarda el envejecimiento $4.000 Parchecitos anti acné especialmente diseñados para secar y absorber toda la materia del granito, calma la inflamación y se camuflan muy bien en la piel, déjalos entre 4 y 12 horas y veras la diferencia, viene 60 stickres.
+                        Mejora la piel seca y deshidratada devolviendo vida, contiene natto en vitamina B6 y E estimulando la renovación celular y retarda el envejecimiento $4.000 Parchecitos anti acné especialmente diseñados para secar y absorber toda la materia del granito, calma la inflamación y se camuflan muy bien en la piel, déjalos entre 4 y 12 horas y veras la diferencia, viene 60 stickres.
                     </p>
 
                 </div>
@@ -212,7 +212,7 @@ const Pop = () => {
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                    DESMAQUILLA TODOS LOS PRODUCTOS A PRUEBA DE AGUA Ó DE DIFICIL RETIRADO. Su fórmula es NO comedogénica, lo que quiere decir que NO obstruye los poros, NO ocasiona acné, NO ocasiona alergia en los poros o en los folículos de las cejas y las pestañas como si puede suceder con aceites de extractos puros.
+                        DESMAQUILLA TODOS LOS PRODUCTOS A PRUEBA DE AGUA Ó DE DIFICIL RETIRADO. Su fórmula es NO comedogénica, lo que quiere decir que NO obstruye los poros, NO ocasiona acné, NO ocasiona alergia en los poros o en los folículos de las cejas y las pestañas como si puede suceder con aceites de extractos puros.
                     </p>
 
                 </div>
@@ -242,7 +242,7 @@ const Pop = () => {
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                    Crema de protección solar Facial, aislamiento UV, bloqueador solar corporal, corrector resistente al agua, protector solar, cosméticos
+                        Crema de protección solar Facial, aislamiento UV, bloqueador solar corporal, corrector resistente al agua, protector solar, cosméticos
                     </p>
 
                 </div>
@@ -272,7 +272,7 @@ const Pop = () => {
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                    Ideal para piel grasa, tiene aloe vera que hidrata y calma el rostro, y hamamelis que cicatriza imperfecciones y controla exceso de brillo.
+                        Ideal para piel grasa, tiene aloe vera que hidrata y calma el rostro, y hamamelis que cicatriza imperfecciones y controla exceso de brillo.
                     </p>
 
                 </div>
@@ -298,11 +298,11 @@ const Pop = () => {
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
                     </button>
                     <h4 className="text-center font-Amatic text-5xl">
-                    Crema Facial de Arroz Bioaqua
+                        Crema Facial de Arroz Bioaqua
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                    El arroz puede equilibrar la producción de aceites naturales, haciendo que la piel se hidrate por sí sola y se mantenga suave por más tiempo, combinado también con la exfoliación hace que se unifique el tono de la piel aclarando manchas e imperfecciones. Esta crema facial deja la piel con un aspecto suave e hidratado.
+                        El arroz puede equilibrar la producción de aceites naturales, haciendo que la piel se hidrate por sí sola y se mantenga suave por más tiempo, combinado también con la exfoliación hace que se unifique el tono de la piel aclarando manchas e imperfecciones. Esta crema facial deja la piel con un aspecto suave e hidratado.
                     </p>
 
                 </div>
@@ -328,22 +328,22 @@ const Pop = () => {
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
                     </button>
                     <h4 className="text-center font-Amatic text-5xl">
-                    Protector Solar Facial Sun Screen – Purpure Facial
+                        Protector Solar Facial Sun Screen – Purpure Facial
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                    SUNSCREEN PROTECTOR SOLAR PURPURE SPF 50+ ideal para hidratar la piel y protegerla por los daños causados por los rayos solares, so fórmula con vitamina E previene el envejecimiento prematuro de la piel, la combinación de los filtros solares actúan como una barrera protectora ante los rayos UV que producen las quemaduras solares. CLÍNICAMENTE COMPROBADO.
+                        SUNSCREEN PROTECTOR SOLAR PURPURE SPF 50+ ideal para hidratar la piel y protegerla por los daños causados por los rayos solares, so fórmula con vitamina E previene el envejecimiento prematuro de la piel, la combinación de los filtros solares actúan como una barrera protectora ante los rayos UV que producen las quemaduras solares. CLÍNICAMENTE COMPROBADO.
                     </p>
 
                 </div>
             )}
 
-                        {/* img Four  */}
-                        <div className="" onClick={() => setModl(!SeptO)}>
+            {/* img Four  */}
+            <div className="" onClick={() => setModl(!SeptO)}>
                 <div className="bg-purple-100 p-5 rounded-2xl">
                     <img size={40} src={Recl} alt="Cosmetiquera" className=" rounded-3xl hover:scale-105" />
                     <h2 className="text-center text-3xl">
-                    Jabón Facial Detox
+                        Jabón Facial Detox
                     </h2>
                     <div className='flex flex-row justify-between'>
                         <p className="text-pink-500 font-Lobster text-2xl">$30.000</p>
@@ -358,19 +358,20 @@ const Pop = () => {
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
                     </button>
                     <h4 className="text-center font-Amatic text-5xl">
-                    Jabón Facial Detox
+                        Jabón Facial Detox
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                    ¡Nuestro Jabón Facial Détox es perfecto si tu tipo de piel es grasa!Combate la producción de grasa en el rostro, disminuye visualmente los poros y previene la aparición de imperfecciones. Su ingrediente principal es el carbón activado. Limpia a profundidad sin resecar. Perfecto para pieles normales, mixtas y grasas. Puedes usarlo día y noche.
+                        ¡Nuestro Jabón Facial Détox es perfecto si tu tipo de piel es grasa!Combate la producción de grasa en el rostro, disminuye visualmente los poros y previene la aparición de imperfecciones. Su ingrediente principal es el carbón activado. Limpia a profundidad sin resecar. Perfecto para pieles normales, mixtas y grasas. Puedes usarlo día y noche.
                     </p>
 
                 </div>
             )}
 
-            
+
         </div>
+
     )
 }
 
-export default Pop
+export default Piel

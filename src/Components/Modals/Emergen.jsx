@@ -1,30 +1,30 @@
 import { React, useState } from "react";
 import { TbShoppingCartPlus } from 'react-icons/tb';
 import { RiCloseFill } from 'react-icons/ri'
-import So from '../../assets/Producto05.jpeg'
-import mini from '../../assets/Producto65.jpeg'
-import Som from '../../assets/Producto84.jpeg'
-import Somb from '../../assets/Producto28.jpeg'
-import Sombr from '../../assets/Producto.2.png'
-import Sombra from '../../assets/Producto.jpeg'
+import So from '../../assets/Producto15.jpeg'
+import mini from '../../assets/Producto19.jpeg'
+import Som from '../../assets/Producto34.jpeg'
+import Somb from '../../assets/Producto97.jpeg'
 
-const MyModal = () => {
-    const [modals, setModal] = useState(false)
+
+
+const Emergen = () => {
+
+    const [modal, setModal] = useState(false)
     const [Espeji, setEspejo] = useState(false)
     const [CosMe, setOpen] = useState(false)
     const [Boti, SetSection] = useState(false)
-    const [Brosh, SetBoch] = useState(false)
-    const [Secti, setModal1] = useState(false)
 
     return (
         <div className="grid grid-cols-2 justify-around md:grid-cols-4 p-2 gap-5">
 
             {/* img One modal */}
-            <div className="" onClick={() => setModal(!modals)}>
+            <div className="" onClick={() => setModal(!modal)}>
                 <div className="bg-purple-100 p-5 rounded-2xl">
                     <img size={40} src={So} alt="Cosmetiquera" className=" rounded-3xl hover:scale-105" />
                     <h2 className="text-center text-3xl">
-                        Sombras Love Is Sweet</h2>
+                    Serum De Cejas Trendy
+                    </h2>
                     <div className='flex flex-row justify-between'>
                         <p className="text-pink-500 font-Lobster text-2xl">
                             $25.000</p>
@@ -32,19 +32,18 @@ const MyModal = () => {
                     </div>
                 </div>
             </div>
-            {modals && (
+            {modal && (
                 <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#e2554b] flex-col  gap-4 font-Handlee text-3xl bg-[#D2918C] drop-shadow-2xl text-center">
                     <button
-                        onClick={() => setModal(!Modal)} className='absolute top-4 right-5'>
+                        onClick={() => setModal(!modal)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
                     </button>
                     <h4 className="text-center font-Amatic text-5xl">
-                        Love Is Sweet
+                        Serum de Cejas Trendy
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                        Esta paleta de sombras con 15 tonos es perfecta para ti si eres amante de las tonalidades tierra y neutras. Acabados mate y satinado. Buena pigmentación. Textura suave. Aplicación sedosa. Incluye aplicador y espejo.
-
+                    Gel transparente que ayuda a peinar y fijar tus cejas durante todo el día. Puedes hacer técnicas orgánicas, semi orgánicas o tradicionales (según cómo desees peinar los pelitos de tus cejas) Es súper facil de usar, no aporta pesadez ni color a las cejas, sólo te ayuda a peinarlas. Gran tamaño, te durará bastante tiempo.
                     </p>
 
                 </div>
@@ -55,9 +54,10 @@ const MyModal = () => {
                 <div className="bg-purple-100 p-5 rounded-2xl">
                     <img size={40} src={mini} alt="Cosmetiquera" className=" rounded-3xl hover:scale-105" />
                     <h2 className="text-center text-3xl">
-                        Sombras Star Luz</h2>
+                    Gel Fijador de Cejas Trendy
+                    </h2>
                     <div className='flex flex-row justify-between'>
-                        <p className="text-pink-500 font-Lobster text-2xl">$20.000</p>
+                        <p className="text-pink-500 font-Lobster text-2xl">$25.000</p>
                         <TbShoppingCartPlus className="text-3xl" />
                     </div>
                 </div>
@@ -69,11 +69,11 @@ const MyModal = () => {
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
                     </button>
                     <h4 className="text-center font-Amatic text-5xl">
-                        Sombras Star Luz
+                    Gel Fijador de Cejas Trendy
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                        Esta paleta de sombras con 4 tonos es perfecta para ti si eres amante de las tonalidades para diferentes tonos de pieles y neutras. Acabados mate y satinado. Buena pigmentación. Textura suave. Aplicación sedosa. Incluye aplicador y espejo.
+                        Con este fijador tu maquillaje se hará a prueba de agua, hará que el maquillaje quede estático y que este donde tiene que estar, no irrita la piel ni obstruye poros, ideal para todo tipo de piel, su formulación no derrite el maquillaje.
 
                     </p>
 
@@ -85,10 +85,10 @@ const MyModal = () => {
                 <div className="bg-purple-100 p-5 rounded-2xl">
                     <img size={40} src={Som} alt="Cosmetiquera" className=" rounded-3xl hover:scale-105" />
                     <h2 className="text-center text-3xl">
-                        Sombra Pizza
+                    Cejas All About Brows
                     </h2>
                     <div className='flex flex-row justify-between'>
-                        <p className="text-pink-500 font-Lobster text-2xl">$20.000</p>
+                        <p className="text-pink-500 font-Lobster text-2xl">$12.000</p>
                         <TbShoppingCartPlus className="text-3xl" />
                     </div>
                 </div>
@@ -100,12 +100,11 @@ const MyModal = () => {
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
                     </button>
                     <h4 className="text-center font-Amatic text-5xl">
-                        Sombras Pizza
+                    Cejas Trendy All About Brows
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                        ¡Déjate conquistar por el hermoso diseño de nuestra paleta Pizza de Trendy! Trae 6 sombras entre mates y satinadas. Son tonos neutros. Tienen muy buena pigmentación. Se difuminan muy fácil y son suaves al tacto. Por su tamaño es perfecta para llevarla en la cosmetiquera.
-
+                    Kit de cejas con dos pigmentos en betún y dos pigmentos en polvo. Sus tonos son únicos y universales. Ideal para las cejas de tono medio a oscuro. Alta adherencia, pigmentación, duración y deslizan super suaves. Su presentación trae un espejo full HD.
 
                     </p>
 
@@ -116,7 +115,7 @@ const MyModal = () => {
                 <div className="bg-purple-100 p-5 rounded-2xl">
                     <img size={40} src={Somb} alt="Cosmetiquera" className=" rounded-3xl hover:scale-105" />
                     <h2 className="text-center text-3xl">
-                        Sombra Kitty
+                        Aceite Four Sensations
                     </h2>
                     <div className='flex flex-row justify-between'>
                         <p className="text-pink-500 font-Lobster text-2xl">$20.000</p>
@@ -131,82 +130,16 @@ const MyModal = () => {
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
                     </button>
                     <h4 className="text-center font-Amatic text-5xl">
-                        Sombra Kitty
+                    Aceite Crecimiento Pestañas- Cejas Four Sensations
                     </h4>
                     <br />
                     <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                        Unidad de empaque (Display) = 12 unidadesSi eres amante de los tonos cáildos esta paleta es para ti. Tiene 16 sombras. Acabados mate y satinado. Buena pigmentación. Fácil de difuminar.
-
-
+                    Detiene y evita la caída de las cejas y pestañas, las fortalece y nutre desde la raíz, hidratando profundamente el foliculo piloso del párpado.En las estrías, ayuda a desvanecerlas notablemente proporcionando muchisima hidratación.
                     </p>
 
                 </div>
             )}
-
-            <div className="" onClick={() => SetBoch(!Brosh)}>
-                <div className="bg-purple-100 p-5 rounded-2xl">
-                    <img size={40} src={Sombr} alt="Cosmetiquera" className=" rounded-3xl hover:scale-105" />
-                    <h2 className="text-center text-3xl">
-                        Eyeshadow Always Perfect
-                    </h2>
-                    <div className='flex flex-row justify-between'>
-                        <p className="text-pink-500 font-Lobster text-2xl">$30.000</p>
-                        <TbShoppingCartPlus className="text-3xl" />
-                    </div>
-                </div>
             </div>
-            {Brosh && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#e2554b] flex-col  gap-4 font-Handlee text-3xl bg-[#D2918C] drop-shadow-2xl text-center">
-                    <button
-                        onClick={() => SetBoch(!Brosh)} className='absolute top-4 right-5'>
-                        <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
-                    </button>
-                    <h4 className="text-center font-Amatic text-5xl">
-                        Sombra Kitty
-                    </h4>
-                    <br />
-                    <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                    Tonos de full pigmentación en la gama de tonos tierra, vienen tonos matte, satinados y glitters presados super fácil de posicionar en nuestro parpado.
+    )}
 
-
-                    </p>
-
-                </div>
-            )}
-
-            <div className="" onClick={() => setModal1(!Secti)}>
-                <div className="bg-purple-100 p-5 rounded-2xl">
-                    <img size={40} src={Sombra} alt="Cosmetiquera" className=" rounded-3xl hover:scale-105" />
-                    <h2 className="text-center text-3xl">
-                    Sombras Liquidas Cosmic
-                    </h2>
-                    <div className='flex flex-row justify-between'>
-                        <p className="text-pink-500 font-Lobster text-2xl">$30.000</p>
-                        <TbShoppingCartPlus className="text-3xl" />
-                    </div>
-                </div>
-            </div>
-            {Secti && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#e2554b] flex-col  gap-4 font-Handlee text-3xl bg-[#D2918C] drop-shadow-2xl text-center">
-                    <button
-                        onClick={() => setModal1(!Secti)} className='absolute top-4 right-5'>
-                        <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
-                    </button>
-                    <h4 className="text-center font-Amatic text-5xl">
-                    Sombras Liquidas Cosmic
-                    </h4>
-                    <br />
-                    <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
-                    Estas sombras líquidas son todo lo que siempre has querido, tienen aplicador como de labial. Son súper fáciles de aplicar directamente del producto al párpado, puedes difuminarlo con los dedos, con una brocha o puedes mezclarlo con sombras tradicionales en polvo para hacer un difuminado perfecto. Es muy pigmentada, su brillo es hermoso y te encantará.
-                    </p>
-
-                </div>
-            )}
-
-
-        </div>
-
-    )
-}
-
-export default MyModal
+            export default Emergen
