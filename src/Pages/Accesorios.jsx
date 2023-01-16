@@ -1,4 +1,5 @@
 import React from 'react'
+import Modal from '../Components/Modals/Modal'
 import Navbar from '../Components/Navbar'
 import { NavResponsive } from '../Components/Navbar/NavResponsive'
 import Bottom from '../Components/selector/Bottom'
@@ -14,10 +15,11 @@ const Accesorios = () => {
             <br />
             <div className=' flex justify-center w-5/6 m-auto'>
                 <p className='font-Handlee  flex center rounded-3xl border-4 border-[#c7463d] bg-[#D2918C] px-8 p-2 text-2xl'>
-                    Se La persona que quisieras ser en tu vida
+                    Espero que hayan dias en el los que te enamores de estar vivo
                 </p>
             </div>
             <Bottom/>
+            <Modal/>
             <Footer/>
         </div>
     )

@@ -10,11 +10,11 @@ export const NavResponsive = () => {
             </div>
             <p className="font-Lobster">
                 <Link to="/">
-                    <img size={100} className="justify-center md:w-16" src={Logo} alt="" />
+                    <img size={120} className="justify-center md:w-16" src={Logo} alt="" />
                 </Link>
             </p>
             <div>
-                <BsCart3 className="flex flex-row items-end text-4xl fixed md:items-end right-4 top-5 animate-none" />
+                <BsCart3 className="flex flex-row items-end text-4xl fixed md:items-end right-4 top-5 animate-none z-[80]" />
             </div>
         </div>
 
