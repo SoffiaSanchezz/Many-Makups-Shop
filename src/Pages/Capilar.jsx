@@ -1,4 +1,5 @@
 import React from 'react'
+import Copor from '../Components/Modals/Copor'
 import Navbar from '../Components/Navbar'
 import { NavResponsive } from '../Components/Navbar/NavResponsive'
 import Bottom from '../Components/selector/Bottom'
@@ -19,6 +20,7 @@ const Capilar = () => {
                 </p>
             </div>
             <Bottom/>
+            <Copor />
             <Footer/>
         </div>
     )

@@ -35,7 +35,7 @@ const MyModal = () => {
             {modals && (
                 <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#e2554b] flex-col  gap-4 font-Handlee text-3xl bg-[#D2918C] drop-shadow-2xl text-center">
                     <button
-                        onClick={() => setModal(!Modal)} className='absolute top-4 right-5'>
+                        onClick={() => setModal(!modals)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
                     </button>
                     <h4 className="text-center font-Amatic text-5xl">

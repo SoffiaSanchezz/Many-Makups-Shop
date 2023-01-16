@@ -14,7 +14,7 @@ const Facial = () => {
             <h2 className='absolute left-12 top-20 text-8xl font-Amatic'>Facial</h2>
             <br />
             <div className=' flex justify-center w-5/6 m-auto'>
-                <p className='font-Handlee  flex center rounded-3xl border-4 border-[#c7463d] bg-[#D2918C] px-8 p-2 text-2xl'>
+                <p className='font-Handlee  flex center rounded-3xl border-4 border-[#b93dc7] bg-[#bb6de8] px-8 p-2 text-2xl'>
                     Aveces no te das cuenta como iluminas tantos lugares e inspiras a las perosnas con el solo hecho de ser tu 
                 </p>
             </div>
