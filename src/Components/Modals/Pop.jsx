@@ -12,6 +12,7 @@ import faci from '../../assets/Producto22.jpeg'
 import facia from '../../assets/Producto23.jpeg'
 import Re from '../../assets/Producto26.jpeg'
 import Recl from '../../assets/Producto81.jpeg'
+import Recla from '../../assets/Producto82.jpeg'
 
 const Pop = () => {
 
@@ -26,6 +27,7 @@ const Pop = () => {
     const [Sep, setModal4] = useState(false)
     const [Sept, setMod] = useState(false)
     const [SeptO, setModl] = useState(false)
+    const [SeptOp, setModls] = useState(false)
 
 
 
@@ -47,7 +49,7 @@ const Pop = () => {
                 </div>
             </div>
             {modal && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#e2554b] flex-col  gap-4 font-Handlee text-3xl bg-[#D2918C] drop-shadow-2xl text-center">
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
                     <button
                         onClick={() => setModal(!modal)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
@@ -78,7 +80,7 @@ const Pop = () => {
                 </div>
             </div>
             {Espeji && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#e2554b] flex-col  gap-4 font-Handlee text-3xl bg-[#D2918C] drop-shadow-2xl text-center">
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
                     <button
                         onClick={() => setEspejo(!Espeji)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
@@ -109,7 +111,7 @@ const Pop = () => {
                 </div>
             </div>
             {CosMe && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#e2554b] flex-col  gap-4 font-Handlee text-3xl bg-[#D2918C] drop-shadow-2xl text-center">
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
                     <button
                         onClick={() => setOpen(!CosMe)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
@@ -140,7 +142,7 @@ const Pop = () => {
                 </div>
             </div>
             {Boti && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#e2554b] flex-col  gap-4 font-Handlee text-3xl bg-[#D2918C] drop-shadow-2xl text-center">
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
                     <button
                         onClick={() => SetSection(!Boti)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
@@ -172,7 +174,7 @@ const Pop = () => {
                 </div>
             </div>
             {Brosh && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#e2554b] flex-col  gap-4 font-Handlee text-3xl bg-[#D2918C] drop-shadow-2xl text-center">
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
                     <button
                         onClick={() => SetBoch(!Brosh)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
@@ -202,7 +204,7 @@ const Pop = () => {
                 </div>
             </div>
             {Secti && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#e2554b] flex-col  gap-4 font-Handlee text-3xl bg-[#D2918C] drop-shadow-2xl text-center">
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
                     <button
                         onClick={() => setModal1(!Secti)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
@@ -232,7 +234,7 @@ const Pop = () => {
                 </div>
             </div>
             {Sect && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#e2554b] flex-col  gap-4 font-Handlee text-3xl bg-[#D2918C] drop-shadow-2xl text-center">
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
                     <button
                         onClick={() => setModal2(!Sect)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
@@ -262,7 +264,7 @@ const Pop = () => {
                 </div>
             </div>
             {Sec && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#e2554b] flex-col  gap-4 font-Handlee text-3xl bg-[#D2918C] drop-shadow-2xl text-center">
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
                     <button
                         onClick={() => setModal3(!Sec)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
@@ -292,7 +294,7 @@ const Pop = () => {
                 </div>
             </div>
             {Sep && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#e2554b] flex-col  gap-4 font-Handlee text-3xl bg-[#D2918C] drop-shadow-2xl text-center">
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
                     <button
                         onClick={() => setModal4(!Sep)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
@@ -322,7 +324,7 @@ const Pop = () => {
                 </div>
             </div>
             {Sept && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#e2554b] flex-col  gap-4 font-Handlee text-3xl bg-[#D2918C] drop-shadow-2xl text-center">
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
                     <button
                         onClick={() => setMod(!Sept)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
@@ -352,7 +354,7 @@ const Pop = () => {
                 </div>
             </div>
             {SeptO && (
-                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#e2554b] flex-col  gap-4 font-Handlee text-3xl bg-[#D2918C] drop-shadow-2xl text-center">
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center text-white">
                     <button
                         onClick={() => setModl(!SeptO)} className='absolute top-4 right-5'>
                         <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
@@ -368,7 +370,36 @@ const Pop = () => {
                 </div>
             )}
 
-            
+              {/* img Four  */}
+                        <div className="" onClick={() => setModl(!SeptO)}>
+                <div className="bg-purple-100 p-5 rounded-2xl">
+                    <img size={40} src={Recla} alt="Cosmetiquera" className=" rounded-3xl hover:scale-105" />
+                    <h2 className="text-center text-3xl">
+                    Tónico De Rosas
+                    </h2>
+                    <div className='flex flex-row justify-between'>
+                        <p className="text-pink-500 font-Lobster text-2xl">$12.000</p>
+                        <TbShoppingCartPlus className="text-3xl" />
+                    </div>
+                </div>
+            </div>
+            {SeptO && (
+                <div className=" fixed z-[90] inline-block h-98 w-98 px-10 py-10 top-40 right-5 left-5 rounded-lg border-4 border-[#5d4be2] flex-col  gap-4 font-Handlee text-3xl bg-[#7b7de6] drop-shadow-2xl text-center">
+                    <button
+                        onClick={() => setModl(!SeptO)} className='absolute top-4 right-5'>
+                        <RiCloseFill size={33} className='fill-light cursor-pointer bg-[#0005] border-2 rounded-full border-black  hover:text-purple-900 hover:border-purple-900' />
+                    </button>
+                    <h4 className="text-center font-Amatic text-5xl">
+                    Tónico De Rosas Trendy
+                    </h4>
+                    <br />
+                    <p className="text-center text-xl flex md:text-2xl flex-row-reverse">
+                    Extracto de rosas y manzanilla en alta concentración, por eso nuestra fórmula se ha posicionado como una de las mejores del mercado, ya que estos dos ingredientes juntos hidratan a profundidad la piel, y controlan brillo durante el día, mejorando en mediano plazo el aspecto de la piel, unificando el tono, calmando alergias o imperfecciones, emparejando el tono de la piel, y ayuda a prevenir y tratar el acné. Olor MUY agradable.
+                    </p>
+
+                </div>
+            )}
+
         </div>
     )
 }
