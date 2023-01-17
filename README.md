@@ -66,9 +66,9 @@ The tools that were used to create this project are:
 -- Tailwind
 
 ## bookstores
--- react router dom
--- React - icons
--- Framer - Motion
+- react router dom
+- React - icons
+- React - Modal
 
 ## Authors✒️
 - [@SoffiaSanchezz](https://github.com/SoffiaSanchezz).
